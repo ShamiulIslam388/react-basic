@@ -1,7 +1,14 @@
 import React from "react";
+import CustomHook from "./components/CustomHooks/CustomHook";
+
+// import the components
 
 function App() {
-  return <div className="text-red-500">Initail React component</div>;
+  return (
+    <>
+      <CustomHook />
+    </>
+  );
 }
 
 export default App;
